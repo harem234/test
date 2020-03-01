@@ -1,0 +1,148 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Test app
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+paths:
+  /upload:
+    post:
+      consumes:
+        - "multipart/form-data"
+##        - "application/json"
+#      produces:
+#        - "application/json"
+      parameters:
+        - in: query
+          name: user_name
+          required: true
+          type: string
+          description: User Name
+
+        - in: query
+          name: file_name
+          required: true
+          type: string
+          description: The files name to upload.
+
+        - in: formData
+          name: file_binary
+          type: file
+          description: The file to upload.
+
+#        - in: body
+#          name: body
+#          description: "users data in json"
+#          schema:
+#            type: object
+#            additionalProperties:
+#              type: string
+
+      operationId: api.write_file_json
+      tags:
+        - "upload"
+      summary: "upload file and json"
+      description: "upload file to user directory"
+      responses:
+        201:
+          description: "Successful file uploaded"
+
+  /setUserData:
+    post:
+      produces:
+        - "application/json"
+      operationId: api.set_user_data
+      parameters:
+        - in: query
+          name: user_name
+          required: true
+          type: string
+          description: User Name
+        - in: query
+          name: key
+          required: true
+          type: string
+          description: User Name
+        - in: query
+          name: value
+          required: true
+          type: string
+          description: User Name
+
+      responses:
+        201:
+          description: "Successful file changed"
+        405:
+          description: "Invalid input"
+
+  /setGlobalData:
+    post:
+      produces:
+        - "application/json"
+      operationId: api.set_global_data
+      parameters:
+        - in: query
+          name: user_name
+          required: true
+          type: string
+          description: User Name
+        - in: query
+          name: key
+          required: true
+          type: string
+          description: User Name
+        - in: query
+          name: value
+          required: true
+          type: string
+          description: User Name
+      responses:
+        201:
+          description: "Successful file changed"
+        405:
+          description: "Invalid input"
+
+  /download:
+    get:
+      operationId: api.download
+      parameters:
+        - in: query
+          name: user_name
+          required: true
+          type: string
+          description: User Name
+
+        - in: query
+          name: file_name
+          required: true
+          type: string
+          description: The files name to upload.
+      responses:
+        200:
+          description: "Successful file uploaded"
+        405:
+          description: "Invalid input"
+
+  /getUserData:
+    get:
+      produces:
+        - "application/json"
+      operationId: api.get_user_data
+      parameters:
+        - in: query
+          name: user_name
+          required: true
+          type: string
+          description: User Name
+
+      responses:
+        200:
+          description: "Successful file uploaded"
+        405:
+          description: "Invalid input"

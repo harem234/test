@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47887560-4256-4805-88b3-cd15a47906df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/openapi" />
+  </component>
+  <component name="ProjectId" id="1YQpJSKA1axe0XI2iBod2NPmSNG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/openapi/test_app_2.py" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\flask\test\openapi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\flask\test\test_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest in test_app_2.py">
+    <configuration name="test" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="test" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="FLASK_APP" value="app:app" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mahdi\.virtualenvs\test\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_app.TestFlaskApi" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/openapi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_app.TestFlaskApi&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\mahdi\.virtualenvs\test\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/openapi/test_app_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_app_2.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\mahdi\.virtualenvs\test\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/openapi/test_app_2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.test" />
+      <item itemvalue="Python tests.pytest in test_app_2.py" />
+      <item itemvalue="Python tests.Unittests for test_app.TestFlaskApi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_app.TestFlaskApi" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47887560-4256-4805-88b3-cd15a47906df" name="Default Changelist" comment="" />
+      <created>1582884599844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582884599844</updated>
+      <workItem from="1582884637589" duration="7586000" />
+      <workItem from="1582908313533" duration="10193000" />
+      <workItem from="1582957599909" duration="26501000" />
+      <workItem from="1583002739951" duration="13296000" />
+      <workItem from="1583066820051" duration="2928000" />
+      <workItem from="1583073811077" duration="6616000" />
+      <workItem from="1583094203339" duration="231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583086078919">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="165" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1583086078919" />
+    <state x="64" y="93" width="1414" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583086100963">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="64" y="93" width="1414" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1583086100963" />
+    <state x="525" y="227" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582977057033">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="525" y="227" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1582977057033" />
+    <state width="767" height="466" key="DebuggerActiveHint" timestamp="1583084917411">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="767" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1583084917411" />
+    <state x="490" y="139" key="FileChooserDialogImpl" timestamp="1583070083351">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="490" y="139" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583070083351" />
+    <state width="1493" height="372" key="GridCell.Tab.0.bottom" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state width="1493" height="372" key="GridCell.Tab.0.center" timestamp="1583086100756">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583086100756" />
+    <state width="1493" height="372" key="GridCell.Tab.0.left" timestamp="1583086100756">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583086100756" />
+    <state width="1493" height="372" key="GridCell.Tab.0.right" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state width="1493" height="372" key="GridCell.Tab.1.bottom" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state width="1493" height="372" key="GridCell.Tab.1.center" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state width="1493" height="372" key="GridCell.Tab.1.left" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state width="1493" height="372" key="GridCell.Tab.1.right" timestamp="1583086100757">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="372" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583086100757" />
+    <state x="220" y="0" key="SettingsEditor" timestamp="1583062711878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="220" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1583062711878" />
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583094244110">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1583094244110" />
+    <state x="442" y="219" width="663" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582974633131">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="442" y="219" width="663" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1582974633131" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test$Unittests_for_test_app_TestFlaskApi.coverage" NAME="Unittests for test_app.TestFlaskApi Coverage Results" MODIFIED="1583085615037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/openapi" />
+    <SUITE FILE_PATH="coverage/test$test.coverage" NAME="test Coverage Results" MODIFIED="1582910380459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test$app.coverage" NAME="app Coverage Results" MODIFIED="1582909926294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$Unittests_in_test_app_py.coverage" NAME="Unittests in test_app.py Coverage Results" MODIFIED="1583058681475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/test$pytest_in_test_app_2_py.coverage" NAME="pytest in test_app_2.py Coverage Results" MODIFIED="1583085981788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test$Unittests_for_test_app_TestFlaskApi_test_upload.coverage" NAME="Unittests for test_app.TestFlaskApi.test_upload Coverage Results" MODIFIED="1583063034964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/openapi" />
+  </component>
+</project>
