@@ -1,5 +1,0 @@
-{  
-	"test name": "test value",  
-	"test name2": "test value2"
-	
-}
